@@ -1,0 +1,7 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX naptan: <http://transport.data.gov.uk/def/naptan/>
+SELECT DISTINCT ?item
+WHERE {
+?item rdf:type naptan:Airport .
+
+}

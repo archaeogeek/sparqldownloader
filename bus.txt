@@ -1,0 +1,8 @@
+PREFIX transit: <http://vocab.org/transit/terms/>
+
+SELECT distinct ?route WHERE {
+GRAPH <http://linkedmanchester.org/id/graph/buses/gmpte> { 
+?st transit:stop <http://transport.data.gov.uk/id/stop-point/1800SJ48301> .
+?trip transit:stopTime ?st .
+?trip transit:route ?route .
+}}

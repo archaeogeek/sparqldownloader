@@ -1,0 +1,1907 @@
+Thu, 01 Mar 2012 11:09:14 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:09:14 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:09:14 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:09:15 Sparql: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 11:09:26 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:09:26 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:09:26 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:09:28 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:09:49 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:09:49 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:09:49 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:09:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:10:15 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:10:15 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:10:15 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:10:17 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:15:53 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:15:53 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:15:53 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:15:55 Sparql: INFO:No previous version of sparql exists.
+Thu, 01 Mar 2012 11:15:55 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:16:50 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:16:50 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:16:50 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:17:00 Sparql: INFO:Table sparql_prev does not exist, so cannot be dropped.
+Thu, 01 Mar 2012 11:17:00 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:17:42 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:17:42 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:17:42 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:17:43 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:17:43 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:21:18 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:21:18 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:21:18 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:21:20 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:21:20 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:23:28 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:23:28 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:23:28 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:23:30 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:23:30 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:23:59 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:23:59 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:23:59 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:24:00 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:24:00 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:24:50 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:24:50 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:24:50 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:24:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:24:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:25:44 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:25:44 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:25:44 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:25:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:25:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:26:12 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:26:12 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:26:12 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:26:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:26:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:26:25 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:26:25 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:26:25 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:26:26 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:26:26 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:27:21 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:27:21 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:27:21 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:27:29 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:27:29 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:27:29 Sparql: ERROR:No data entered into {u'town': u'Northampton', u'name': u'Yardley Hastings Primary School', u'reference': u'121876', u'address1': u'Castle Ashby Road', u'address2': u'Yardley Hastings', u'postcode': u'NN7 1EL', u'easting': u'486488', u'northing': u'257015'}
+Thu, 01 Mar 2012 11:27:48 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:27:48 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:27:48 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:27:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:27:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:27:49 Sparql: ERROR:No data entered into {u'town': u'Northampton', u'name': u'Yardley Hastings Primary School', u'reference': u'121876', u'address1': u'Castle Ashby Road', u'address2': u'Yardley Hastings', u'postcode': u'NN7 1EL', u'easting': u'486488', u'northing': u'257015'}
+Thu, 01 Mar 2012 11:29:02 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:29:02 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:29:02 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:29:03 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:29:03 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:29:03 Sparql: ERROR:No data entered into {u'town': u'Northampton', u'name': u'Yardley Hastings Primary School', u'reference': u'121876', u'address1': u'Castle Ashby Road', u'address2': u'Yardley Hastings', u'postcode': u'NN7 1EL', u'easting': u'486488', u'northing': u'257015'}
+Thu, 01 Mar 2012 11:29:18 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:29:18 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:29:18 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:29:19 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:29:19 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:29:19 Sparql: ERROR:No data entered into {u'town': u'Northampton', u'name': u'Yardley Hastings Primary School', u'reference': u'121876', u'address1': u'Castle Ashby Road', u'address2': u'Yardley Hastings', u'postcode': u'NN7 1EL', u'easting': u'486488', u'northing': u'257015'}
+Thu, 01 Mar 2012 11:30:32 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:30:32 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:30:32 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:30:33 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:30:33 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:30:33 Sparql: ERROR:No data entered into {u'town': u'Northampton', u'name': u'Yardley Hastings Primary School', u'reference': u'121876', u'address1': u'Castle Ashby Road', u'address2': u'Yardley Hastings', u'postcode': u'NN7 1EL', u'easting': u'486488', u'northing': u'257015'}
+Thu, 01 Mar 2012 11:31:20 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:31:20 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:31:20 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:31:20 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:31:20 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:31:20 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 11:31:51 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:31:51 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:31:51 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:31:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:31:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:31:52 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 11:32:16 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:32:16 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:32:16 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:32:17 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:32:17 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:32:17 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 11:33:08 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:33:08 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:33:08 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:33:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:33:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:33:59 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:33:59 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:33:59 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:34:00 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:34:00 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:34:00 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 11:35:20 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:35:20 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:35:20 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:35:21 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:35:21 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:35:21 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 11:35:41 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:35:41 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:35:41 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:35:42 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:35:42 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:49:12 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:49:12 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:49:12 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:49:44 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:49:44 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:49:44 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:50:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:50:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:58:06 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:58:06 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:58:06 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:58:07 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:58:07 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:12 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:59:12 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:59:12 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:59:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:54 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 11:59:54 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:59:54 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:56 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 11:59:57 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:08 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:01:08 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:01:08 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:09 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:10 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:12 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:13 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:14 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:15 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:45 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:01:45 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:01:45 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:01:47 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:47 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:47 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:47 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:47 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:48 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:49 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:50 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:51 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:52 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:01:53 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:04:04 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:04:04 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:04:04 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:04:11 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:04:11 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:04:42 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:04:42 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:04:42 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:04:45 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:04:45 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:04:45 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 12:08:16 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:08:16 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:08:16 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:08:17 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:08:17 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:08:17 Sparql: ERROR:No data entered into sparql
+Thu, 01 Mar 2012 12:08:29 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:08:29 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:08:29 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:08:32 Sparql: INFO:The table sparql_prev has been successfully dropped.
+Thu, 01 Mar 2012 12:08:32 Sparql: INFO:Table sparql created.
+Thu, 01 Mar 2012 12:14:54 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:14:54 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:14:54 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:14:54 Sparql: INFO:No previous version of bus exists.
+Thu, 01 Mar 2012 12:14:54 Sparql: INFO:Table bus created.
+Thu, 01 Mar 2012 12:23:39 Sparql: INFO:___________________________
+Thu, 01 Mar 2012 12:23:39 Sparql: INFO:Sparql Download starting
+Thu, 01 Mar 2012 12:23:39 Sparql: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 12:23:39 Sparql: INFO:No previous version of airport exists.
+Thu, 01 Mar 2012 12:23:39 Sparql: INFO:Table airport created.

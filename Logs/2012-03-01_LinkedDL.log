@@ -1,0 +1,58 @@
+Thu, 01 Mar 2012 10:16:16 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:16:16 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:16:16 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:16:24 Linked: ERROR:Could not create sparql.txt. Script aborting
+Thu, 01 Mar 2012 10:18:09 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:18:09 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:18:09 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:21:44 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:21:44 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:21:44 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:22:10 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:22:10 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:22:10 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:22:28 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 10:23:31 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:23:31 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:23:31 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:23:37 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 10:31:35 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:31:35 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:31:35 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:31:40 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 10:33:03 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:33:03 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:33:03 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:35:33 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:35:33 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:35:33 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:35:35 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 10:43:31 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:43:31 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:43:31 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:44:14 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:44:14 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:44:14 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:46:25 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:46:25 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:46:25 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:46:29 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 10:47:02 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:47:02 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:47:02 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:47:06 Linked: INFO:Table sparql created.
+Thu, 01 Mar 2012 10:47:06 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 10:47:54 Linked: INFO:___________________________
+Thu, 01 Mar 2012 10:47:54 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 10:47:54 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 10:47:54 Linked: INFO:Table sparql created.
+Thu, 01 Mar 2012 10:47:54 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 11:02:12 Linked: INFO:___________________________
+Thu, 01 Mar 2012 11:02:12 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:02:12 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:02:14 Linked: INFO:Table sparql created.
+Thu, 01 Mar 2012 11:02:14 Linked: ERROR:Could not create sparql. Script aborting
+Thu, 01 Mar 2012 11:05:53 Linked: INFO:___________________________
+Thu, 01 Mar 2012 11:05:53 Linked: INFO:Sparql Download starting
+Thu, 01 Mar 2012 11:05:53 Linked: INFO:Opening PostgreSQL connection
+Thu, 01 Mar 2012 11:05:58 Linked: INFO:Table sparql created.
