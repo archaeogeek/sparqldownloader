@@ -83,18 +83,10 @@ class Sparql():
 
 	def InsertTable(self, dbdata, table):
 		'''generic function for inserting data from a dictionary into a table'''
-		try:
-			fvals = ', '.join(dbdata.values())
-			fkeys = ', '.join(dbdata.keys())
-
-		except:
-			self.ExtraErrorHandling()
-
+		fvals = ', '.join(dbdata.values())
+		fkeys = ', '.join(dbdata.keys())
 		sInsertSQL = "INSERT INTO %s (%s) VALUES (%s)" % (table, fkeys, fvals)
-		print sInsertSQL
-
 		try:
-		
 			self._conn.query(sInsertSQL.encode('utf8'))
 		except:
 			self.out.OutputError("No data entered into %s" % table)
@@ -139,7 +131,6 @@ class Sparql():
 			sparql.setQuery(querystring)
 			sparql.setReturnFormat(JSON)
 			results = sparql.query().convert() #returns a dictionary
-
 		except:
 			self.ExtraErrorHandling()
 
