@@ -1,11 +1,7 @@
 import sys
-
 import os
-
 from datetime import date
-
 from SPARQLWrapper import SPARQLWrapper, JSON
-
 from Required import ConfigParse, Data, OutPut,TextClean
 
 class Sparql():
@@ -21,7 +17,6 @@ class Sparql():
 		opts = ConfigParse.OptParser()
 		self.filename = opts.filename
 		self.endpoint = opts.endpoint
-		print self.endpoint
 
 		#Output to log file
 		self.out = OutPut.ClassOutput('Sparql')
@@ -29,31 +24,39 @@ class Sparql():
 		#cleanup
 		self.textclean = TextClean.ClassTextClean(self.out)
 
-
 		# generic database connection stuff #needs sorting for this script
-		try:
-			dbcreds = opts.ConfigSectionMap('DatabaseConnection')
-			self._Data = Data.ClassData(self.out)
-			self.host = dbcreds['host']
-			self.username = dbcreds['username']
-			self.password = dbcreds['password']
-			print self.username
-		except:
-			e = sys.exc_info()[1]
-			print "Error: %s" % e 
-			sys.exit(1)
+		dbcreds = opts.ConfigSectionMap('DatabaseConnection')
+		self._Data = Data.ClassData(self.out)
+		self.host = dbcreds['host']
+		self.username = dbcreds['username']
+		self.password = dbcreds['password']
+
+	def ExtraErrorHandling(self):
+		'''generic function for printing error message before exiting script'''
+		e = sys.exc_info()[1]
+		print "Error: %s" % e 
+		sys.exit(1)
+
+	def DoesTableExist(self, table):
+		'''generic function to check if a table exists or not'''
+		sSQL = "SELECT relname from pg_class WHERE relname = '%s'" % table
+		q = self._conn.query(sSQL)
+		return q.getresult()
 
 	def DropTable(self, tablename):
-	## database table dropping function
-		sDropSQL = 'DROP TABLE %s' % tablename
-		try:
-   			self._conn.query(sDropSQL)
-			self.out.OutputInfo("The table %s has been successfully dropped." % tablename)
-		except:
-   			self.out.OutputInfo("Table %s does not exist, so cannot be dropped." % tablename)
-
+		''' generic function for dropping a database table called [tablename]'''
+		res = self.DoesTableExist(tablename)
+		if res:
+			sDropSQL = 'DROP TABLE %s' % tablename
+			try:
+				self._conn.query(sDropSQL)
+			except:
+				self.out.OutputError("There was a problem dropping table %s." % tablename)
+		else:
+			pass #if it doesn't exist we don't need to drop it
+	
 	def CreateTable(self, tablename, fieldlist):
-	## database table creation function
+		'''generic function to create database table from fields provided as a dictionary'''
 
 		sAggSQL = "SELECT relname from pg_class WHERE relname = '%s'" % tablename
 		q_agg = self._conn.query(sAggSQL)
@@ -75,22 +78,17 @@ class Sparql():
 			self._conn.query(sCreateSQL)
 			self.out.OutputInfo("Table %s created." % tablename)
 		except:
-			e = sys.exc_info()[1]
-			print "Error: %s" % e 
-			self.out.OutputError("Could not create %s. Script aborting"  % tablename)
-			sys.exit(1)
+			self.out.OutputError("Could not create table %s. Script aborting"  % tablename)
+			self.ExtraErrorHandling()
 
 	def InsertTable(self, dbdata, table):
-	## inserts json dictionary values into table, or updates existing - needs editing for this script
+		'''generic function for inserting data from a dictionary into a table'''
 		try:
 			fvals = ', '.join(dbdata.values())
 			fkeys = ', '.join(dbdata.keys())
 
 		except:
-
-			e = sys.exc_info()[1]
-			print "Error: %s" % e 
-			sys.exit(1)
+			self.ExtraErrorHandling()
 
 		sInsertSQL = "INSERT INTO %s (%s) VALUES (%s)" % (table, fkeys, fvals)
 		print sInsertSQL
@@ -100,14 +98,11 @@ class Sparql():
 			self._conn.query(sInsertSQL.encode('utf8'))
 		except:
 			self.out.OutputError("No data entered into %s" % table)
-			e = sys.exc_info()[1]
-			print "Error: %s" % e 
-			sys.exit(1)
+			self.ExtraErrorHandling()
 
 	def sparqldownload(self):
 
 		try:
-
 			#set up logging
       			self._sName = '%s_Sparql' % self.dateStr
       			self.out.SetFilename( self._sName + '.log' )
@@ -116,13 +111,10 @@ class Sparql():
       			self.out.OutputInfo('___________________________')
       			self.out.OutputInfo('Sparql Download starting')
 		except:
-			e = sys.exc_info()[1]
-			print "Error: %s" % e 
-			sys.exit(1)
+			self.ExtraErrorHandling()
 		
 		try:
 			self._conn = self._Data.OpenPostgres()
-		
 		except:
 			print "I cannot connect to the supplied database"
 			self.out.OutputError("Problem connecting to database %s." % self.dbname) 
@@ -137,7 +129,7 @@ class Sparql():
 		base = os.path.basename(self.filename)
 		tablename = os.path.splitext(base)[0]
 		
-		#create a temp list to hold field names
+		#create a temporary dictionary to hold field names
 		fieldlist = dict()
 		dbdata = dict()
 
@@ -149,9 +141,8 @@ class Sparql():
 			results = sparql.query().convert() #returns a dictionary
 
 		except:
-			e = sys.exc_info()[1]
-   			print "Error: %s" % e 
-			sys.exit(1)
+			self.ExtraErrorHandling()
+
 		try:
 		#extract bits we want from dictionary of results and convert into table in database
 			firstLoop = True
@@ -161,21 +152,14 @@ class Sparql():
 						fieldlist[key] = 'varchar' #append key to dict with value varchar to create column list
 					self.CreateTable(tablename, fieldlist)
 					firstLoop = False
-					print "first iteration done"
 				else:
-					print "into second iteration"					
 					for key,value in result.items():
-
 						val = self.textclean.Cleanup(value['value'])
-						#val = "'" + value['value'] + "'"	#need to wrap in quotes to deal with spaces
+						val = "'" + val + "'"	#need to wrap in quotes to deal with spaces
 						dbdata[key] = val
-					self.InsertTable(dbdata, tablename) #this only inserts one value at the moment- needs to loop
-			
-
+					self.InsertTable(dbdata, tablename) 
 		except:
-			e = sys.exc_info()[1]
-   			print "Error: %s" % e 
-			sys.exit(1)
+			self.ExtraErrorHandling()
 		
 
 def main():
