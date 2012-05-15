@@ -47,6 +47,9 @@ class ClassData:
     		self._output = Out
     		self._bError = False
 		#####
+		
+		#Output to log file
+		self.out = OutPut.ClassOutput('Sparql')
  
 	#####
 	# Open connection to postgres
@@ -106,6 +109,61 @@ class ClassData:
     
 		return
 		#####
+		
+	
+	def DoesTableExist(self, table):
+			'''generic function to check if a table exists or not'''
+			sSQL = "SELECT relname from pg_class WHERE relname = '%s'" % table
+			q = self._conn.query(sSQL)
+			return q.getresult()
+
+	def DropTable(self, tablename):
+		''' generic function for dropping a database table called [tablename]'''
+		res = self.DoesTableExist(tablename)
+		if res:
+			sDropSQL = 'DROP TABLE %s' % tablename
+			try:
+				self._conn.query(sDropSQL)
+			except:
+				self.out.OutputError("There was a problem dropping table %s." % tablename)
+		else:
+			pass #if it doesn't exist we don't need to drop it
+	
+	def CreateTable(self, tablename, fieldlist):
+		'''generic function to create database table from fields provided as a dictionary'''
+		sAggSQL = "SELECT relname from pg_class WHERE relname = '%s'" % tablename
+		q_agg = self._conn.query(sAggSQL)
+		res_agg = q_agg.getresult()
+		if not res_agg:
+			self.out.OutputInfo("No previous version of %s exists." % tablename)
+		else:
+			sAlterSQL = "ALTER TABLE %s RENAME TO %s_prev" % (tablename, tablename)
+			try:
+				self.DropTable('%s_prev' % tablename)
+				self._conn.query(sAlterSQL) 
+			except:
+				self.out.OutputError("Could not rename %s" % tablename)
+
+		fields = ",".join([' %s %s' % (key, value) for key, value in fieldlist.items()])
+		try:
+			sCreateSQL = 'CREATE TABLE %s (%s)' % (tablename, fields)
+			print sCreateSQL
+			self._conn.query(sCreateSQL)
+			self.out.OutputInfo("Table %s created." % tablename)
+		except:
+			self.out.OutputError("Could not create table %s. Script aborting"  % tablename)
+			self.ExtraErrorHandling()
+
+	def InsertTable(self, dbdata, table):
+		'''generic function for inserting data from a dictionary into a table'''
+		fvals = ', '.join(dbdata.values())
+		fkeys = ', '.join(dbdata.keys())
+		sInsertSQL = "INSERT INTO %s (%s) VALUES (%s)" % (table, fkeys, fvals)
+		try:
+			self._conn.query(sInsertSQL.encode('utf8'))
+		except:
+			self.out.OutputError("No data entered into %s" % table)
+			self.ExtraErrorHandling()
 
  
     
