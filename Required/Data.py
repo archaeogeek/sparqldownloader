@@ -44,11 +44,11 @@ class ClassData:
 		self.port = int(dbcreds['port'])
 
 		self._conn = 0
-    		self._output = Out
-    		self._bError = False
+    	self._output = Out #not sure about this bit?
+    	self._bError = False
 		#####
 		
-		#Output to log file
+		#Output to log file- maybe we don't need this bit?
 		self.out = OutPut.ClassOutput('Sparql')
  
 	#####
@@ -110,6 +110,10 @@ class ClassData:
 		return
 		#####
 		
+	def DoesColumnExist(self,table,column):
+		'''generic function for checking whether a given column already exists in a given table)'''
+		pass
+		
 	
 	def DoesTableExist(self, table):
 			'''generic function to check if a table exists or not'''
@@ -125,7 +129,7 @@ class ClassData:
 			try:
 				self._conn.query(sDropSQL)
 			except:
-				self.out.OutputError("There was a problem dropping table %s." % tablename)
+				Out.OutputError("There was a problem dropping table %s." % tablename)
 		else:
 			pass #if it doesn't exist we don't need to drop it
 	
