@@ -27,30 +27,47 @@ import sys
 import os
 from datetime import date
 from SPARQLWrapper import SPARQLWrapper, JSON
-from Required import ConfigParse, Data, OutPut,TextClean
+from optparse import OptionParser
+from Required import Data, OutPut,TextClean, ConfigParse
 
 class Sparql():
 
 	def __init__(self):
+		
+		desc ="""Download linked data from sparql endpoint. 
+		Usage: sparql.py -f filename -e endpoint -c config"""
+		parser=OptionParser(description = desc)
+		parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
+		parser.add_option("-e","--endpoint", dest="endpoint", help="location of sparql endpoint (mandatory)")
+		parser.add_option("-c","--config", dest="config", help="location of config file (mandatory)")
+		(options, args) = parser.parse_args()
 
-		# get today's date
+		mandatories = ['filename','endpoint', 'config']
+		for m in mandatories:
+   			if not options.__dict__[m]:
+        			print "a mandatory option is missing"
+        			parser.print_help()
+        			exit(-1)
+
+		self.options = options
+		self.filename = options.filename
+		self.endpoint = options.endpoint
+		self.config = options.config
+
+		# get today's date for naming log file
 		now = date.today()
 		self.dateStr = now.isoformat()
 		
-		# generic config
-		opts = ConfigParse.OptParser()
-		self.filename = opts.filename
-		self.endpoint = opts.endpoint
 
 		#Output to log file
 		self.out = OutPut.ClassOutput('Sparql')
 		
-		#cleanup
+		#Text cleanup
 		self.textclean = TextClean.ClassTextClean(self.out)
-		
 
-		# generic database connection stuff #needs sorting for this script
-		dbcreds = opts.ConfigSectionMap('DatabaseConnection')
+		# database connection from config.ini
+		conf = ConfigParse.ConfParser()
+		dbcreds = conf.ConfigSectionMap('DatabaseConnection')
 		self._Data = Data.ClassData(self.out)
 		self.host = dbcreds['host']
 		self.username = dbcreds['username']
@@ -134,7 +151,7 @@ def main():
 	try:
  		gothunderbirdsgo = Sparql()
 		gothunderbirdsgo.sparqldownload()
-	except (KeyboardInterrupt, SystemExit):
+	except (KeyboardInterrupt):
 		print "Keyboard interrupt detected. Script aborting"
         	raise
 	except:

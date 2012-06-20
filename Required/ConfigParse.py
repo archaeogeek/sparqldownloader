@@ -22,39 +22,15 @@
 
 # import modules
 import ConfigParser
-from optparse import OptionParser
 
-class OptParser():
+class ConfParser():
 
-	def __init__(self):
-		desc ="""Download linked data from sparql endpoint. """
-		parser=OptionParser(description = desc)
-		parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
-		parser.add_option("-e","--endpoint", dest="endpoint", help="location of sparql endpoint (mandatory)")
-		parser.add_option("-c","--config", dest="config", help="location of config file (mandatory)")
-		(options, args) = parser.parse_args()
 
-		mandatories = ['filename','endpoint', 'config']
-		for m in mandatories:
-   			if not options.__dict__[m]:
-        			print "a mandatory option is missing"
-        			parser.print_help()
-        			exit(-1)
-
-		self.options = options
-		self.filename = options.filename
-		self.endpoint = options.endpoint
-		self.config = options.config
-
-	def ConfigSectionMap(self, section):
+	def ConfigSectionMap(self, section, filename="config.ini",):
 		"""Generic function for parsing options in a config file and returning a dictionary of the results"""
 
-   		configfile_name = self.options.config
-
-		
-		
 		Config = ConfigParser.ConfigParser()
-		Config.read(configfile_name)
+		Config.read(filename)
 		dict1 = {}
     		options = Config.options(section)
     		for option in options:
