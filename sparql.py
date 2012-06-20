@@ -123,6 +123,10 @@ class Sparql():
 					self._Data.InsertTable(dbdata, tablename) 
 		except:
 			self.ExtraErrorHandling()
+		finally:
+			self._Data.ClosePostgres()
+			print 'Sparql Download completed'
+		return
 		
 
 def main():

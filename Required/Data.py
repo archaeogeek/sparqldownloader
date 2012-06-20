@@ -18,12 +18,13 @@
 ## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 ## THE SOFTWARE.
 
-### Data.py - Class to manage connections to a database
+### Data.py - Class to manage connections to a database, plus generic utility functions for working with data in postgresql
 
 ###
 import os
 import sys
 import pg
+import csv
 
 # Import Astun stuff
 import OutPut, ConfigParse
@@ -44,12 +45,12 @@ class ClassData:
 		self.port = int(dbcreds['port'])
 
 		self._conn = 0
-    	self._output = Out #not sure about this bit?
-    	self._bError = False
-		#####
+		self._output = Out #not sure about this bit?
+		self._bError = False
 		
 		#Output to log file- maybe we don't need this bit?
-		self.out = OutPut.ClassOutput('Sparql')
+		self.out = OutPut.ClassOutput('Sparql Downloader')
+ 
  
 	#####
 	# Open connection to postgres
@@ -110,16 +111,22 @@ class ClassData:
 		return
 		#####
 		
-	def DoesColumnExist(self,table,column):
-		'''generic function for checking whether a given column already exists in a given table)'''
-		pass
-		
-	
 	def DoesTableExist(self, table):
-			'''generic function to check if a table exists or not'''
-			sSQL = "SELECT relname from pg_class WHERE relname = '%s'" % table
-			q = self._conn.query(sSQL)
-			return q.getresult()
+		'''generic function to check if a table exists or not'''
+		sSQL = "SELECT relname from pg_class WHERE relname = '%s'" % table
+		q = self._conn.query(sSQL)
+		return q.getresult()
+
+	def DoesColumnExist(self, table, column):
+		''' generic function to check if a given column exists in a given table, if it does, then do nothing, if it doesn't then add it'''
+		sSQL = "SELECT attname FROM pg_attribute WHERE attrelid = (SELECT oid FROM pg_class WHERE relname = '%s') AND attname = '%s'" % (table, column)
+		q = self._conn.query(sSQL)
+		if q.getresult():
+			pass
+		else:
+			sSQL2 = "ALTER TABLE %s ADD COLUMN %s varchar" % (table, column)
+			self._conn.query(sSQL2)
+			
 
 	def DropTable(self, tablename):
 		''' generic function for dropping a database table called [tablename]'''
@@ -129,16 +136,15 @@ class ClassData:
 			try:
 				self._conn.query(sDropSQL)
 			except:
-				Out.OutputError("There was a problem dropping table %s." % tablename)
+				self.out.OutputError("There was a problem dropping table %s." % tablename)
 		else:
 			pass #if it doesn't exist we don't need to drop it
+
+	def AlterTable(self, tablename):
+		'''generic function for creating a backup version of a table called [tablename] to tablename_PREV'''
 	
-	def CreateTable(self, tablename, fieldlist):
-		'''generic function to create database table from fields provided as a dictionary'''
-		sAggSQL = "SELECT relname from pg_class WHERE relname = '%s'" % tablename
-		q_agg = self._conn.query(sAggSQL)
-		res_agg = q_agg.getresult()
-		if not res_agg:
+		res = self.DoesTableExist(tablename)
+		if not res:
 			self.out.OutputInfo("No previous version of %s exists." % tablename)
 		else:
 			sAlterSQL = "ALTER TABLE %s RENAME TO %s_prev" % (tablename, tablename)
@@ -148,26 +154,75 @@ class ClassData:
 			except:
 				self.out.OutputError("Could not rename %s" % tablename)
 
-		fields = ",".join([' %s %s' % (key, value) for key, value in fieldlist.items()])
+	def CreateTable(self, tablename, fields):
+		'''generic function for creating a database table called [tablename], if passed a list of fields.'''
+		
+		self.AlterTable(tablename)
+		self.DropTable('%s_prev' % tablename)
+		
+		fieldslist = ",".join([' %s %s' % (key, value) for key, value in fields.items()])
 		try:
-			sCreateSQL = 'CREATE TABLE %s (%s)' % (tablename, fields)
-			print sCreateSQL
+			sCreateSQL = 'CREATE TABLE %s (%s)' % (tablename, fieldslist)
 			self._conn.query(sCreateSQL)
 			self.out.OutputInfo("Table %s created." % tablename)
 		except:
-			self.out.OutputError("Could not create table %s. Script aborting"  % tablename)
-			self.ExtraErrorHandling()
+			self.out.OutputError("Could not create %s. Script aborting"  % tablename)
 
+	def DeleteRows(self, tablename, column, value):
+		''' generic function for deleting rows from [tablename] where [column] = [value]'''
+		try:
+			sDelSQL = "DELETE FROM %s WHERE %s = '%s'" % (tablename, column, value)
+			self._conn.query(sDelSQL)
+		except:
+			self.out.OutputError("Could not delete from %s where % = %" % (tablename, column, value))
+			
 	def InsertTable(self, dbdata, table):
-		'''generic function for inserting data from a dictionary into a table'''
+		''' generic function for inserting the values from a dictionary of data [dbdata] into a database table [table]'''
 		fvals = ', '.join(dbdata.values())
 		fkeys = ', '.join(dbdata.keys())
+
 		sInsertSQL = "INSERT INTO %s (%s) VALUES (%s)" % (table, fkeys, fvals)
 		try:
 			self._conn.query(sInsertSQL.encode('utf8'))
 		except:
-			self.out.OutputError("No data entered into %s" % table)
-			self.ExtraErrorHandling()
+			pass #fail silently and move on so that we continue the script
+			
+	def getDBInfo(self, fields='id, force', table='policeapi_neighbourhoods'):
+		'''generic function for getting id and force information from db for creating download url'''
+
+		try:
+			sselSQL = 'SELECT %s FROM %s' % (fields, table)
+			q_sql = self._conn.query(sselSQL)
+		except:
+			self.out.OutputError("Cannot access %s" % table)
+			
+		res = q_sql.dictresult()
+		return res
+		
+	def processCSV(self, filename, table, loopNumber):
+		'''generic function for processing csv files and copying into given table'''
+		csvfile = open(filename)
+		#parse first line to get column headings- need to wrap them in quotes to preserve spaces and case
+		header = {}
+		content = {}
+		reader = csv.DictReader(csvfile)
+		for row in reader:
+			if loopNumber == 0:
+				for f in row.keys():
+					f = '"' + f + '"' 
+					header[f] = 'varchar'
+				self.CreateTable(table, header)
+				loopNumber +=1
+			for key, value in row.items():
+				key = '"' + key + '"'
+				value = "'" + value + "'" #must wrap values in single quotes for postgresql string type
+				content[key] = value
+			try:
+				self.InsertTable(content, table)
+			except:
+				e = sys.exc_info()[1]
+				print "Error: %s" % e
+		csvfile.close()
 
  
     

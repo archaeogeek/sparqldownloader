@@ -27,7 +27,7 @@ from optparse import OptionParser
 class OptParser():
 
 	def __init__(self):
-		desc ="""Download data sparql endpoint. """
+		desc ="""Download linked data from sparql endpoint. """
 		parser=OptionParser(description = desc)
 		parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
 		parser.add_option("-e","--endpoint", dest="endpoint", help="location of sparql endpoint (mandatory)")
