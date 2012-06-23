@@ -100,10 +100,15 @@ class Sparql():
 			self.out.OutputError("Problem connecting to database %s." % self.dbname) 
 			self._Data.ClosePostgres()
 			sys.exit(1)
-
+		
 		#read contents of sparql.txt into a variable for passing to endpoint- use filename as name for database table
 		# need to do some text validation (use text cleanup)
-		querystring = open(self.filename, 'r').read()
+		try:
+			querystring = open(self.filename, 'r').read()
+		except:
+			self.out.OutputError('File %s does not exist. Script aborting' % self.filename)
+			self._Data.ClosePostgres()
+			sys.exit(1)
 
 		#get filename without extension as table name
 		base = os.path.basename(self.filename)
