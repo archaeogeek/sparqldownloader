@@ -28,140 +28,138 @@ import os
 from datetime import date
 from SPARQLWrapper import SPARQLWrapper, JSON
 from optparse import OptionParser
-from Required import Data, OutPut,TextClean, ConfigParse
+from Required import Data, OutPut, TextClean, ConfigParse
+
 
 class Sparql():
 
-	def __init__(self):
-		
-		desc ="""Download linked data from sparql endpoint. 
-		Usage: sparql.py -f filename -e endpoint -c config"""
-		parser=OptionParser(description = desc)
-		parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
-		parser.add_option("-e","--endpoint", dest="endpoint", help="location of sparql endpoint (mandatory)")
-		parser.add_option("-c","--config", dest="config", help="location of config file (mandatory)")
-		(options, args) = parser.parse_args()
+    def __init__(self):
 
-		mandatories = ['filename','endpoint', 'config']
-		for m in mandatories:
-   			if not options.__dict__[m]:
-        			print "a mandatory option is missing"
-        			parser.print_help()
-        			exit(-1)
+        desc = """Download linked data from sparql endpoint.
+        Usage: sparql.py -f filename -e endpoint -c config"""
+        parser = OptionParser(description=desc)
+        parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
+        parser.add_option("-e","--endpoint", dest="endpoint", help="location of sparql endpoint (mandatory)")
+        parser.add_option("-c","--config", dest="config", help="location of config file (mandatory)")
+        (options, args) = parser.parse_args()
 
-		self.options = options
-		self.filename = options.filename
-		self.endpoint = options.endpoint
-		self.config = options.config
+        mandatories = ['filename', 'endpoint', 'config']
+        for m in mandatories:
+            if not options.__dict__[m]:
+                    print "a mandatory option is missing"
+                    parser.print_help()
+                    exit(-1)
 
-		# get today's date for naming log file
-		now = date.today()
-		self.dateStr = now.isoformat()
-		
+        self.options = options
+        self.filename = options.filename
+        self.endpoint = options.endpoint
+        self.config = options.config
 
-		#Output to log file
-		self.out = OutPut.ClassOutput('Sparql')
-		
-		#Text cleanup
-		self.textclean = TextClean.ClassTextClean(self.out)
+        # get today's date for naming log file
+        now = date.today()
+        self.dateStr = now.isoformat()
 
-		# database connection from config.ini
-		conf = ConfigParse.ConfParser()
-		dbcreds = conf.ConfigSectionMap('DatabaseConnection')
-		self._Data = Data.ClassData(self.out)
-		self.host = dbcreds['host']
-		self.username = dbcreds['username']
-		self.password = dbcreds['password']
+        #Output to log file
+        self.out = OutPut.ClassOutput('Sparql')
 
-	def ExtraErrorHandling(self):
-		'''generic function for printing error message before exiting script'''
-		e = sys.exc_info()[1]
-		print "Error: %s" % e 
-		sys.exit(1)
+        #Text cleanup
+        self.textclean = TextClean.ClassTextClean(self.out)
 
-	
-	def sparqldownload(self):
+        # database connection from config.ini
+        conf = ConfigParse.ConfParser()
+        dbcreds = conf.ConfigSectionMap('DatabaseConnection')
+        self._Data = Data.ClassData(self.out)
+        self.host = dbcreds['host']
+        self.username = dbcreds['username']
+        self.password = dbcreds['password']
 
-		try:
-			#set up logging
-      			self._sName = '%s_Sparql' % self.dateStr
-      			self.out.SetFilename( self._sName + '.log' )
-      			self.out.SetOutputLevel(OutPut.OUTPUTLEVEL_INFO)
-      			self.out.SetFileLogging( True )
-      			self.out.OutputInfo('___________________________')
-      			self.out.OutputInfo('Sparql Download starting')
-		except:
-			self.ExtraErrorHandling()
-		
-		try:
-			self._conn = self._Data.OpenPostgres()
-		except:
-			print "I cannot connect to the supplied database"
-			self.out.OutputError("Problem connecting to database %s." % self.dbname) 
-			self._Data.ClosePostgres()
-			sys.exit(1)
-		
-		#read contents of sparql.txt into a variable for passing to endpoint- use filename as name for database table
-		# need to do some text validation (use text cleanup)
-		try:
-			querystring = open(self.filename, 'r').read()
-		except:
-			self.out.OutputError('File %s does not exist. Script aborting' % self.filename)
-			self._Data.ClosePostgres()
-			sys.exit(1)
+    def ExtraErrorHandling(self):
+        '''generic function for printing error message before exiting script'''
+        e = sys.exc_info()[1]
+        print "Error: %s" % e
+        sys.exit(1)
 
-		#get filename without extension as table name
-		base = os.path.basename(self.filename)
-		tablename = os.path.splitext(base)[0]
-		
-		#create a temporary dictionary to hold field names
-		fieldlist = dict()
-		dbdata = dict()
+    def sparqldownload(self):
 
-		try:
-		#do sparql magic and return dictionary of results
-			sparql = SPARQLWrapper(self.endpoint)
-			sparql.setQuery(querystring)
-			sparql.setReturnFormat(JSON)
-			results = sparql.query().convert() #returns a dictionary
-		except:
-			self.ExtraErrorHandling()
-			
+        try:
+            #set up logging
+            self._sName = '%s_Sparql' % self.dateStr
+            self.out.SetFilename(self._sName + '.log')
+            self.out.SetOutputLevel(OutPut.OUTPUTLEVEL_INFO)
+            self.out.SetFileLogging(True)
+            self.out.OutputInfo('___________________________')
+            self.out.OutputInfo('Sparql Download starting')
+        except:
+            self.ExtraErrorHandling()
 
-		try:
-		#extract bits we want from dictionary of results and convert into table in database
-			firstLoop = True
-			for result in results["results"]["bindings"]: #returns a list where key is a single item and value is a dictionary
-				if firstLoop:
-    					for key,value in result.items():
-						fieldlist[key] = 'varchar' #append key to dict with value varchar to create column list
-					self._Data.CreateTable(tablename, fieldlist)
-					firstLoop = False
-				else:
-					for key,value in result.items():
-						val = self.textclean.Cleanup(value['value'])
-						val = "'" + val + "'"	#need to wrap in quotes to deal with spaces
-						dbdata[key] = val
-					self._Data.InsertTable(dbdata, tablename) 
-		except:
-			self.ExtraErrorHandling()
-		finally:
-			self._Data.ClosePostgres()
-			print 'Sparql Download completed'
-		return
-		
+        try:
+            self._conn = self._Data.OpenPostgres()
+        except:
+            print "I cannot connect to the supplied database"
+            self.out.OutputError("Problem connecting to database %s." % self.dbname)
+            self._Data.ClosePostgres()
+            sys.exit(1)
+
+        #read contents of sparql.txt into a variable for passing to endpoint-
+        #use filename as name for database table
+        # need to do some text validation (use text cleanup)
+        try:
+            querystring = open(self.filename, 'r').read()
+        except:
+            self.out.OutputError('File %s does not exist. Script aborting' % self.filename)
+            self._Data.ClosePostgres()
+            sys.exit(1)
+
+        #get filename without extension as table name
+        base = os.path.basename(self.filename)
+        tablename = os.path.splitext(base)[0]
+
+        #create a temporary dictionary to hold field names
+        fieldlist = dict()
+        dbdata = dict()
+
+        try:
+        #do sparql magic and return dictionary of results
+            sparql = SPARQLWrapper(self.endpoint)
+            sparql.setQuery(querystring)
+            sparql.setReturnFormat(JSON)
+            results = sparql.query().convert()  # returns a dictionary
+        except:
+            self.ExtraErrorHandling()
+
+        try:
+        #extract bits we want from results and convert into table in database
+            firstLoop = True
+            for result in results["results"]["bindings"]:
+                if firstLoop:
+                    for key, value in result.items():
+                        fieldlist[key] = 'varchar'
+                    self._Data.CreateTable(tablename, fieldlist)
+                    firstLoop = False
+                else:
+                    for key, value in result.items():
+                        val = self.textclean.Cleanup(value['value'])
+                        val = "'" + val + "'"
+                        dbdata[key] = val
+                    self._Data.InsertTable(dbdata, tablename)
+        except:
+            self.ExtraErrorHandling()
+        finally:
+            self._Data.ClosePostgres()
+            print 'Sparql Download completed'
+        return
+
 
 def main():
-	
-	try:
- 		gothunderbirdsgo = Sparql()
-		gothunderbirdsgo.sparqldownload()
-	except (KeyboardInterrupt):
-		print "Keyboard interrupt detected. Script aborting"
-        	raise
-	except:
-		sys.exit(1)
+
+    try:
+        gothunderbirdsgo = Sparql()
+        gothunderbirdsgo.sparqldownload()
+    except (KeyboardInterrupt):
+        print "Keyboard interrupt detected. Script aborting"
+        raise
+    except:
+        sys.exit(1)
 
 if __name__ == "__main__":
-	main()
-
+    main()
