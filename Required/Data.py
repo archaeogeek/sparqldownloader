@@ -22,6 +22,7 @@
 ### functions for working with data in postgresql
 
 ###
+import os
 import sys
 import pg
 import csv
@@ -48,8 +49,12 @@ class ClassData:
         self._output = Out
         self._bError = False
 
-        #Output to log file- maybe we don't need this bit?
+        #Output to log file
         self.out = OutPut.ClassOutput('Sparql Downloader')
+
+    #####
+    # Open connection to postgres
+    ###
 
     def OpenPostgres(self):
 
@@ -66,8 +71,7 @@ class ClassData:
             sPort = self.port
 
             # Now connect
-            self._conn = pg.connect(host=sHost, user=sUser,
-            dbname=sDatabase, passwd=sPwd, port=sPort)
+            self._conn = pg.connect(host=sHost, user=sUser, dbname=sDatabase, passwd=sPwd, port= sPort)
 
         except KeyboardInterrupt:
             self._output.OutputError('Keyboard interrupt detected', False)
@@ -79,6 +83,12 @@ class ClassData:
             self._bError = True
 
         return self._conn
+
+    #####
+
+    #####
+    # Close a connection
+    ###
 
     def ClosePostgres(self):
         # Close the connection
@@ -107,9 +117,9 @@ class ClassData:
         return q.getresult()
 
     def DoesColumnExist(self, table, column):
-        ''' generic function to check if a given column exists in a given table,
-        if it does, then do nothing, if it doesn't then add it'''
-        sSQL = "SELECT attname FROM pg_attribute WHERE attrelid =(SELECT oid FROM pg_class WHERE relname = '%s') AND attname = '%s'" % (table, column)
+        ''' generic function to check if a given column exists in a given
+        table, if it does, then do nothing, if it doesn't then add it'''
+        sSQL = "SELECT attname FROM pg_attribute WHERE attrelid = (SELECT oid FROM pg_class WHERE relname = '%s') AND attname = '%s'" % (table, column)
         q = self._conn.query(sSQL)
         if q.getresult():
             pass
@@ -157,7 +167,7 @@ class ClassData:
             self._conn.query(sCreateSQL)
             self.out.OutputInfo("Table %s created." % tablename)
         except:
-            self.out.OutputError("Could not create %s. Script aborting"  % tablename)
+            self.out.OutputError("Could not create %s. Script aborting" % tablename)
 
     def DeleteRows(self, tablename, column, value):
         ''' generic function for deleting rows from [tablename] where [column]
@@ -170,7 +180,7 @@ class ClassData:
 
     def InsertTable(self, dbdata, table):
         ''' generic function for inserting the values from a dictionary of data
-         [dbdata] into a database table [table]'''
+        [dbdata] into a database table [table]'''
         fvals = ', '.join(dbdata.values())
         fkeys = ', '.join(dbdata.keys())
 
@@ -178,7 +188,7 @@ class ClassData:
         try:
             self._conn.query(sInsertSQL.encode('utf8'))
         except:
-            pass #fail silently and move on so that we continue the script
+            pass  #fail silently and move on so that we continue the script
 
     def getDBInfo(self, fields='id, force', table='policeapi_neighbourhoods'):
         '''generic function for getting id and force information from db for
@@ -194,8 +204,8 @@ class ClassData:
         return res
 
     def processCSV(self, filename, table, loopNumber):
-        '''generic function for processing csv files and copying into
-        given table'''
+        '''generic function for processing csv files and copying into given
+        table'''
         csvfile = open(filename)
         #parse first line to get column headings- need to wrap them in quotes
         #to preserve spaces and case
@@ -220,10 +230,14 @@ class ClassData:
                 print "Error: %s" % e
         csvfile.close()
 
-
-
-
-
-
-
-
+    def AddGeometryColumn(self, table, geomtype):
+        '''generic function to add geometry column in EPSG:27700 format to a
+        given table'''
+        try:
+            sGeomSQL = "select AddGeometryColumn('%s', 'wkb_geometry', 27700, '%s', 2)" % (table, geomtype)
+            self._conn.query(sGeomSQL)
+            self.out.OutputInfo("Geometry Column successfully added to %s table" % table)
+        except:
+            self.out.OutputInfo("Could not add geometry column to %s" % table)
+            e = sys.exc_info()[1]
+            print "Error: %s" % e

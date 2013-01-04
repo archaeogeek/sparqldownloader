@@ -18,8 +18,8 @@
 ## OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 ## THE SOFTWARE.
 
-### Output.py - Class to output various information to output stream, and to
-### log to file
+### Output.py - Class to output various information to output stream, and log
+### file
 
 # Import system stuff
 import datetime
@@ -41,9 +41,9 @@ OUTPUTLEVEL_ALL = 0
 
 
 class ClassOutput:
-  #####
-  # To initialiate self
-  ###
+    #####
+    # To initialise self
+    ###
     def __init__(self, sName):
         self._outputlevel = OUTPUTLEVEL_WARNING
         self._file = "Output.log"
@@ -57,9 +57,13 @@ class ClassOutput:
         if (iLen < 6):
             for iIndex in range(iLen, 6):
                 self._sName += ' '
+      #####
 
+    #####
+    # Output for debugging, etc
+    ###
     def Output(self, iLevel, sMsg, bToFile, bToScreen):
-        # Only output level asked for
+      # Only output level asked for
         if (iLevel >= self._outputlevel):
             if (iLevel == OUTPUTLEVEL_ALWAYS):
                 if bToScreen:
@@ -73,7 +77,7 @@ class ClassOutput:
                 self.LogException(sMsg)
         elif (iLevel == OUTPUTLEVEL_ERROR):
             if bToScreen:
-                print self._sName, 'ERROR:', sMsg
+                self._sName, 'ERROR:', sMsg
             if bToFile:
                 self.LogMessage('ERROR:', sMsg)
         elif (iLevel == OUTPUTLEVEL_WARNING):
@@ -91,9 +95,11 @@ class ClassOutput:
                 print self._sName, 'DEBUG:', sMsg
             if bToFile:
                 self.LogMessage('DEBUG:', sMsg)
+        return
 
-    return
-
+  #####
+  # Log the message
+  ###
     def LogMessage(self, sType, sMsg):
         if self._tofile:
             try:
@@ -117,9 +123,11 @@ class ClassOutput:
             except:
                 print 'ERROR: Writing to logger'
                 print 'EXCEPTION:', sys.exc_info()
+        return
 
-    return
-
+  #####
+  # Log the message
+  ###
     def LogException(self, exc):
         if self._tofile:
             try:
@@ -138,12 +146,12 @@ class ClassOutput:
                 f.write('TRACEBACK:')
                 for sItem in format_tb(ex3):
                     f.write(sItem)
-                    f.close()
+                f.close()
 
-        # Hold the exception message
+                # Hold the exception message
                 self._sMsg = str(ex1) + ' ' + str(ex2)
 
-        # Now check if the files need to be rolled over
+                # Now check if the files need to be rolled over
                 self.CheckFileSizeX()
 
             except KeyboardInterrupt:
@@ -153,8 +161,7 @@ class ClassOutput:
             except:
                 print 'ERROR: Writing to logger'
                 print 'EXCEPTION:', sys.exc_info()
-
-    return
+        return
 
     def OutputDebug(self, sMsg, bToFile=True, bToScreen=True):
         self.Output(OUTPUTLEVEL_DEBUG, sMsg, bToFile, bToScreen)
@@ -168,6 +175,7 @@ class ClassOutput:
     def OutputError(self, sMsg, bToFile=True, bToScreen=True):
         self._sMsg = sMsg
         self.Output(OUTPUTLEVEL_ERROR, sMsg, bToFile, bToScreen)
+        sys.exit(1)
 
     def OutputException(self, ex, bToFile=True, bToScreen=True):
         self.Output(OUTPUTLEVEL_EXCEPTION, ex, bToFile, bToScreen)
@@ -179,40 +187,58 @@ class ClassOutput:
         # Set the output level
         self._outputlevel = iLevel
 
+    #####
+    # Check the file size and roll files
+    ###
     def CheckFileSizeX(self):
         # Only if the thing exists
         if (os.path.exists("Logs\\" + self._file)):
             # Get the filesize
             fsize = os.path.getsize("Logs\\" + self._file)
-        if (fsize > self._lMax):
-            # Roll the files
-            self.RollFiles(self._file)
+            if (fsize > self._lMax):
+                # Roll the files
+                self.RollFiles(self._file)
 
+    #####
+    # To Change the max file size
+    ###
     def SetFileMax(self, lMax):
         """To set the maximum file size for logs files"""
         self._lMax = lMax
 
+    #####
+    # Change the output file for logging
+    ###
     def SetFilename(self, sFilename):
         """Set the Output filename"""
         self._file = sFilename
 
+    #####
+    # Set Logging to file
+    ###
     def SetFileLogging(self, bValue):
         self._tofile = bValue
         if bValue:
-            if os.path.exists("Logs") is False:
+            if not os.path.exists("Logs"):
                 os.mkdir("Logs")
 
+    #####
+    # Check and copy
+    ###
     def CheckAndCopy(self, sFile1, sFile2):
-        if os.path.exists(sFile1):
+        if (os.path.exists(sFile1)):
             os.rename(sFile1, sFile2)
 
+    #####
+    # Rolling files
+    ###
     def RollFiles(self, sFilename):
         sBits = split(sFilename, ".")
         sStub = "Logs\\" + sBits[0]
 
         # Remove the last one
         sFile1 = sStub + "_9.log"
-        if os.path.exists(sFile1):
+        if (os.path.exists(sFile1)):
             os.remove(sFile1)
 
         # Work backwards
@@ -244,6 +270,8 @@ class ClassOutput:
         sFile1 = sStub + ".log"
         self.CheckAndCopy(sFile1, sFile2)
 
+    #####
+    # To allow the error we are hold to be got at
+    ###
     def GetErrorMessage(self):
         return self._sMsg
-  #####

@@ -27,47 +27,46 @@ from optparse import OptionParser
 class OptParser():
 
 	def __init__(self):
-		desc ="""Download data sparql endpoint. """
+		desc ="""Download data from the Police Data API, for specified police forces. Choose a mode from the following options: \
+		normal: runs only if data hasn't been updated since last run (aggregates historical crime data), clean: drops all tables \
+		and starts from scratch (use if changing required forces- does not aggregate historical crime data), force: force script \
+		to run even if data hasn't been updated (deletes historical crime data). """
 		parser=OptionParser(description = desc)
-		parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
-		parser.add_option("-e","--endpoint", dest="endpoint", help="location of sparql endpoint (mandatory)")
-		parser.add_option("-c","--config", dest="config", help="location of config file (mandatory)")
+		parser.add_option("-f","--file", dest="filename", help="location of configuration file config.ini (mandatory)")
+		parser.add_option("-m","--mode", dest="mode", help="script mode (mandatory)- choose from clean or normal (default)")
 		(options, args) = parser.parse_args()
 
-		mandatories = ['filename','endpoint', 'config']
+		mandatories = ['filename', 'mode']
 		for m in mandatories:
-   			if not options.__dict__[m]:
-        			print "a mandatory option is missing"
-        			parser.print_help()
-        			exit(-1)
+			if not options.__dict__[m]:
+				print "a mandatory option is missing"
+				parser.print_help()
+				exit(-1)
 
 		self.options = options
-		self.filename = options.filename
-		self.endpoint = options.endpoint
-		self.config = options.config
+		self.mode = options.mode
 
 	def ConfigSectionMap(self, section):
 		"""Generic function for parsing options in a config file and returning a dictionary of the results"""
 
-   		file_name = self.options.filename
+		file_name = self.options.filename
 
 		
 		
 		Config = ConfigParser.ConfigParser()
 		Config.read(file_name)
 		dict1 = {}
-    		options = Config.options(section)
-    		for option in options:
-        		try:
-           			dict1[option] = Config.get(section, option)
-            			if dict1[option] == -1:
-                			DebugPrint("skip: %s" % option)
-        		except:
-           			print("exception on %s!" % option)
-            			dict1[option] = None    
- 
-		return dict1
+		options = Config.options(section)
+		for option in options:
+			try:
+				dict1[option] = Config.get(section, option)
+				if dict1[option] == -1:
+					DebugPrint("skip: %s" % option)
+			except:
+				print("exception on %s!" % option)
+				dict1[option] = None    
 
+		return dict1
 
 
 
