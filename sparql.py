@@ -35,7 +35,7 @@ class Sparql():
 
     def __init__(self):
 
-        desc = """Download linked data from sparql endpoint.
+        desc = """Download linked data from sparql endpoint using a valid sparql query provided as a text file.
         Usage: sparql.py -f filename -e endpoint -c config"""
         parser = OptionParser(description=desc)
         parser.add_option("-f","--file", dest="filename", help="location of sparql query file (mandatory)")
@@ -60,6 +60,9 @@ class Sparql():
         self.dateStr = now.isoformat()
 
         #Output to log file
+        opts = ConfigParse.ConfParser()
+        outputcreds = opts.ConfigSectionMap('Output')
+        self.outputlevel = outputcreds['outputlevel']
         self.out = OutPut.ClassOutput('Sparql')
 
         #Text cleanup
@@ -73,6 +76,8 @@ class Sparql():
         self.username = dbcreds['username']
         self.password = dbcreds['password']
 
+
+
     def ExtraErrorHandling(self):
         '''generic function for printing error message before exiting script'''
         e = sys.exc_info()[1]
@@ -84,11 +89,18 @@ class Sparql():
         try:
             #set up logging
             self._sName = '%s_Sparql' % self.dateStr
-            self.out.SetFilename(self._sName + '.log')
-            self.out.SetOutputLevel(OutPut.OUTPUTLEVEL_INFO)
+            self.out.SetFilename( self._sName + '.log' )
+            if self.outputlevel == 'INFO':
+                self.out.SetOutputLevel(OutPut.OUTPUTLEVEL_INFO)
+            elif self.outputlevel == 'ERROR':
+                self.out.SetOutputLevel(OutPut.OUTPUTLEVEL_ERROR)
+            else:
+                self.out.SetOutputLevel(OutPut.OUTPUTLEVEL_DEBUG)
             self.out.SetFileLogging(True)
             self.out.OutputInfo('___________________________')
             self.out.OutputInfo('Sparql Download starting')
+            self.out.OutputInfo('Endpoint: %s, Query: %s' % self.endpoint)
+            self.out.OutputInfo('Query: %s' % self.filename)
         except:
             self.ExtraErrorHandling()
 
