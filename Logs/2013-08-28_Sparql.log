@@ -1,0 +1,15 @@
+Wed, 28 Aug 2013 08:53:22 Sparql: INFO:___________________________
+Wed, 28 Aug 2013 08:53:22 Sparql: INFO:Sparql Download starting
+Wed, 28 Aug 2013 08:53:41 Sparql: INFO:___________________________
+Wed, 28 Aug 2013 08:53:41 Sparql: INFO:Sparql Download starting
+Wed, 28 Aug 2013 08:54:13 Sparql: INFO:___________________________
+Wed, 28 Aug 2013 08:54:13 Sparql: INFO:Sparql Download starting
+Wed, 28 Aug 2013 08:55:29 Sparql: INFO:___________________________
+Wed, 28 Aug 2013 08:55:29 Sparql: INFO:Sparql Download starting
+Wed, 28 Aug 2013 09:03:47 Sparql: INFO:___________________________
+Wed, 28 Aug 2013 09:03:47 Sparql: INFO:Sparql Download starting
+Wed, 28 Aug 2013 09:04:09 Sparql: INFO:___________________________
+Wed, 28 Aug 2013 09:04:09 Sparql: INFO:Sparql Download starting
+Wed, 28 Aug 2013 09:04:09 Sparql: INFO:Endpoint: http://data.ordnancesurvey.co.uk/datasets/boundary-line/apis/sparql
+Wed, 28 Aug 2013 09:04:09 Sparql: INFO:Query: boundaryline.txt
+Wed, 28 Aug 2013 09:04:09 Sparql: INFO:Opening PostgreSQL connection

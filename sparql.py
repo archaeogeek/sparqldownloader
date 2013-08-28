@@ -99,7 +99,8 @@ class Sparql():
             self.out.SetFileLogging(True)
             self.out.OutputInfo('___________________________')
             self.out.OutputInfo('Sparql Download starting')
-            self.out.OutputInfo('Endpoint: %s, Query: %s' % self.endpoint)
+            print "Got here OK"
+            self.out.OutputInfo('Endpoint: %s' % self.endpoint)
             self.out.OutputInfo('Query: %s' % self.filename)
         except:
             self.ExtraErrorHandling()
