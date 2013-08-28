@@ -1,0 +1,14 @@
+[DatabaseConnection]
+host:yourhost
+username:yourusername
+password:yourpoassword
+port: yourport (default 5432)
+dbname:yourdatabase
+
+[Output]
+outputlevel:INFO
+
+#ERROR
+#INFO
+#DEBUG
+

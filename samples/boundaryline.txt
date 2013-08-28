@@ -1,0 +1,8 @@
+select ?x ?y ?name
+where
+{
+?a <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+?a <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/easting> ?x .
+?a <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/northing> ?y .
+?a a <http://data.ordnancesurvey.co.uk/ontology/admingeo/District> .
+}

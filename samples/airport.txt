@@ -1,0 +1,14 @@
+PREFIX naptan: <http://transport.data.gov.uk/def/naptan/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+SELECT DISTINCT ?stopPoint_airport ?name ?iataRef ?lat ?long
+WHERE {
+  ?item a naptan:StopArea ;
+    naptan:administrativeArea <http://transport.data.gov.uk/id/administrative-area/145> ;
+    skos:prefLabel ?name ;
+    geo:lat ?lat ;
+    geo:long ?long ;
+    naptan:stopPoint [ naptan:airport ?stopPoint_airport ] . 
+  ?stopPoint_airport naptan:iataRef ?iataRef . 
+} 
