@@ -32,7 +32,7 @@ Where:
 
   **Caveats**
 
-  This was done to scratch an itch and teach myself further python. As such it's fairly rudimentary! Given time I will improve the code and may add additional functionality as necessary. The examples are mainly UK-oriented, and gathered from various locations on the internet- the authors are acknowledged in the comments at the top of each file.
+  This was done to scratch an itch and teach myself further python. As such it's fairly rudimentary! Given time I will improve the code and may add additional functionality as necessary. The examples are mainly UK-oriented, and gathered from various locations on the internet- the authors are acknowledged in the comments at the top of each file where appropriate.
   
 
 

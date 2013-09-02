@@ -1,3 +1,6 @@
+# Downloads Ordnance Survey boundary line data (thanks to https://johngoodwin225.wordpress.com/2013/08/01/ordnance-survey-linked-data-simple-sparql-example/).
+# Endpoint: http://data.ordnancesurvey.co.uk/datasets/boundary-line/apis/sparql
+
 select ?x ?y ?name
 where
 {

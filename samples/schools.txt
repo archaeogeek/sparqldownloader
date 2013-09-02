@@ -1,3 +1,5 @@
+# Downloads schools locations and addresses (in this case primary) for a given local authority SNAC code (in this case 34UG)
+
 prefix sch-ont: <http://education.data.gov.uk/def/school/>
 prefix space: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
 SELECT ?name ?easting ?northing ?reference ?address1 ?address2 ?town ?postcode WHERE {

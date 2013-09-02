@@ -1,3 +1,6 @@
+# Downloads UK bus stop locations from naptan
+# Endpoint http://gov.tso.co.uk/sparql
+
 PREFIX naptan: <http://transport.data.gov.uk/def/naptan/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
