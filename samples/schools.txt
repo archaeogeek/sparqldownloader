@@ -1,4 +1,5 @@
 # Downloads schools locations and addresses (in this case primary) for a given local authority SNAC code (in this case 34UG)
+# End point http://services.data.gov.uk/education/sparql
 
 prefix sch-ont: <http://education.data.gov.uk/def/school/>
 prefix space: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
