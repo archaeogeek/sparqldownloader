@@ -1,0 +1,9 @@
+syntax: glob
+*.pyc
+*.py~
+*.ini~
+Logs/*.*
+*.zip
+*.csv
+*.nja
+*.ini
