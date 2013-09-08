@@ -1,7 +1,0 @@
-[DatabaseConnection]
-host:localhost
-username:isharedata
-password:isharedata
-port: 5433
-dbname = police
-
