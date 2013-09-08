@@ -8,7 +8,8 @@ Tested with python 2.6 but should/may work with 2.5+. Should work with windows a
 
   - Python 2.5+
   - PostgreSQL 8.x +
-  - PygreSQL for your version of python- get it [here](http://http://www.pygresql.org/)
+  - PygreSQL for your version of python- get it [here](http://www.pygresql.org/)
+  - SparQL-Wrapper for your version of python - get it [here](http://sparql-wrapper.sourceforge.net/)
   
  **Instructions**
 
