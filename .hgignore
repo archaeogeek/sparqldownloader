@@ -7,3 +7,4 @@ Logs/*.*
 *.csv
 *.nja
 *.ini
+.gitignore
