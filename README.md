@@ -1,4 +1,4 @@
-# Sparqldownloader
+# Sparql Downloader
 
 Python script that takes a valid sparql query (that delivers a tabular result), and a valid endpoint, and downloads the result into a PostgreSQL database.
 

@@ -1,22 +1,19 @@
 # Downloads schools locations and addresses (in this case primary) for a given local authority SNAC code (in this case 34UG)
 # End point http://services.data.gov.uk/education/sparql
 
-prefix sch-ont: <http://education.data.gov.uk/def/school/>
-prefix space: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
-SELECT ?name ?easting ?northing ?reference ?address1 ?address2 ?town ?postcode WHERE {
-?school a sch-ont:School ; 
-sch-ont:districtAdministrative <http://statistics.data.gov.uk/id/local-authority-district/34UG> ;
-sch-ont:phaseOfEducation <http://education.data.gov.uk/def/school/PhaseOfEducation_Primary> ;
-sch-ont:establishmentName ?name;
-sch-ont:uniqueReferenceNumber ?reference ;
-space:easting ?easting;
-space:northing ?northing;
+prefix sch-ont: <http://education.data.gov.uk/ontology/school#>
+SELECT ?name ?address1 ?address2 ?postcode ?town WHERE {
+?school a sch-ont:School; sch-ont:establishmentName ?name;
+sch-ont:districtAdministrative
+<http://education.data.gov.uk/placeholder-id/administrativeDistrict/Maidenhead> .
+
 OPTIONAL {
 ?school sch-ont:address ?address .
+
 ?address sch-ont:address1 ?address1 ;
 sch-ont:address2 ?address2 ;
-sch-ont:town ?town ;
-sch-ont:postcode ?postcode .
+sch-ont:postcode ?postcode ;
+sch-ont:town ?town .
 }
 }
 ORDER BY ?name
